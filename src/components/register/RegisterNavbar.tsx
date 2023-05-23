@@ -1,15 +1,13 @@
 import {
 	Box,
-	Button,
 	ButtonGroup,
 	Flex,
 	Image,
 	Menu,
 	MenuButton,
-	MenuItem,
 } from "@chakra-ui/react";
 
-export const LoginNavbar = () => {
+export const RegisterNavbar = () => {
 	return (
 		<Box
 			fontFamily="Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif"
@@ -42,18 +40,6 @@ export const LoginNavbar = () => {
 								h="70px"
 							/>
 						</MenuButton>
-					</ButtonGroup>
-					<ButtonGroup>
-						<MenuItem
-							as={Button}
-							bg="#e50914"
-							variant="solid"
-							color="#fff"
-							_hover={{ bg: "#e50914", color: "#fff" }}
-							opacity="0.85"
-						>
-							Registrarme
-						</MenuItem>
 					</ButtonGroup>
 				</Menu>
 			</Flex>
